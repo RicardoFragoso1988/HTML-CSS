@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Designbolts-Cute-Social-HTML5.ico"
+      type="image/x-icon"
+    />
+    <title>Exemplo de Hover</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: blue;
+        text-align: center;
+        text-shadow: 1px 1px 1px coral;
+      }
+      div > p {
+        display: none;
+      }
+      div:hover > p {
+        display: block;
+        color: blue;
+        background-color: orange;
+        width: 250px;
+      }
+      div:hover {
+        color: chartreuse;
+      }
+      .especial::after{
+        content: '⇚';
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de Hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+      passe o mouse aqui
+      <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do Exemplo</p>
+    <a href="index.html" rel="prev" class="especial">Voltar</a>
+  </body>
+</html>

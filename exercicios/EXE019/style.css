@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*
+Todu que em HTML é ID em CSS  vai ser # ( só pode um elemento )
+Todo que em HTML for CLASS em CSS vai ser . ( pode vareos elementos )
+*/
+
+body {
+  background-color: rgba(141, 196, 196, 0.726);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: oblique;
+  
+}
+h1#principal {
+  text-align: center;
+  color: rgb(6, 49, 85);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.5em;
+  text-shadow: 1px 1px 1px rgb(36, 131, 138);
+  background-color: aquamarine;
+}
+h1 {
+  color: rgb(11, 61, 61);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  text-shadow: 1px 1px 1px rgb(36, 131, 138);
+}
+h2 {
+  color: rgb(6, 49, 35);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.basico {
+  color: rgb(43, 43, 121);
+}
+.intermediario {
+  color: blueviolet;
+}
+.avançado {
+  color: rgb(232, 100, 237);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Designbolts-Cute-Social-HTML5.ico"
+      type="image/x-icon"
+    />
+    <title>Links</title>
+    <style>
+      /*           SELETORES PERSONALIZADOS
+          #  = id
+          .  = cless
+          :  = pseudo-cless
+          :: = pseudo-element
+          >  = clildren
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+      h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3em;
+        text-align: center;
+        color: blue;
+        background-color: orange;
+      }
+      a {
+        color: rgba(44, 172, 44, 0.788);
+        text-decoration: none;
+      }
+      a:visited {
+        color: darkgreen;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: black;
+      }
+      a:active {
+        color: rgb(155, 202, 46);
+      }
+      .links::before {
+        content: '⇛';
+      }
+      .especial::after {
+        content: '⇚';
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalisando Links</h1>
+    <ul>
+      <li>
+        <a href="https://gustavoguanabara.github.io" class="links"
+          >Repositório GitHub</a
+        >
+      </li>
+      <li>
+        <a href="https://YouTube.com/cursoemvideo/" class="links"
+          >Canal do YouTube</a
+        >
+      </li>
+      <li>
+        <a href="https://cursoemvideo.com" class="links"
+          >Site do Cursoem video</a
+        >
+      </li>
+      <li><a href="https://google.com" class="links">Site do Google</a></li>
+    </ul>
+
+    <a href="index.html" rel="prev" class="especial">Voltar</a>
+  </body>
+</html>
