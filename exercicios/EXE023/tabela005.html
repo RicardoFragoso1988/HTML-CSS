@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Designbolts-Cute-Social-HTML5.ico" type="image/x-icon">
+  <title>Tabela 005</title>
+  <style>
+
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.493);
+      background-color: rgba(20, 134, 134, 0.459);
+      padding: 10px;
+    }
+
+    caption {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.5em;
+      font-weight: bold;
+      background-color: cornflowerblue;
+      padding: 10px;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+    }
+
+    td{
+      border: 1px solid black;
+    }
+
+    thead > tr > td {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      background-color: rgba(125, 156, 156, 0.678);
+      color: rgba(25, 48, 3, 0.973);
+    }
+
+    tr.média {
+      font-weight: bold;
+      background-color: rgba(137, 43, 226, 0.829);
+    }
+
+    td.num {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    td.eh {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.3em;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    td.ma {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tabela de Notas</h1>
+  <table>
+    <caption>Notas</caption>
+    <thead>
+      <tr>
+        <td rowspan="2" scope="col">Área</td>
+        <td rowspan="2" scope="col">Disciplina</td>
+        <td colspan="2" scope="colgroup">Notas</td>
+        
+        <td rowspan="2" scope="col">Média</td>
+      </tr>
+      <tr>
+        
+       
+        <td scope="col">Nota 1</td>
+        <td scope="col">Nota 2</td>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="eh" rowspan="4" scope="rowgroup">Exata</td>
+        <td class="ma">Matemática</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr>
+       
+        <td class="ma">Física</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr>
+       
+        <td class="ma">Química</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr>
+      
+        <td class="ma">Biologia</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr class="média">
+        <td colspan="4">Média de Exatas</td>
+        
+        <td class="num">0.0</td>
+      </tr>
+      <tr>
+        <td class="eh" rowspan="2" scope="rowgroup">Humanas</td>
+        <td class="ma">História</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr>
+       
+        <td class="ma">Geografia</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr class="média">
+        <td colspan="4">Média de Humanas</td>
+        
+        <td class="num">0.0</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
